@@ -1,11 +1,16 @@
-# Getting Started with Create React App
+# NEWCOMERS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created for front-end side of welcoming site for newcomers at my chuch, New Frontier Church in New York.
 
-## Available Scripts
+## Why I came up with this project
 
-In the project directory, you can run:
+I served at NFC (New Frontier Church) in newcomers team since 2013. Being part of the team member for 7 years, and then serving as the newcomers team leader for a year, my team members and I found it cumbersome organizing newcomers' info details into Google spreadsheet. We often discussed on how to effectively gather information and organize them. After we gether information on Sunday, we would often forget or delay on updating the spreadsheet during the week. 
 
+This project is the page for newcomers to enter and provide their information in a friedly and welcoming manner! 
+
+Implementing this app, the newcomers team members can now focus more on getting to know and welcoming the newcomers, taking load off from the administrative tasks. 
+
+## To get started on your local server
 ### `npm start`
 
 Runs the app in the development mode.\
