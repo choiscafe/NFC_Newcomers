@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://images.squarespace-cdn.com/content/v1/5b0efe015cfd793504d5d5ab/1534993905752-5LYTBKUJFBNKH06TCOYR/NFC_HORIZONTAL_LOCKUP_white_lg.png?format=1500w" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          NEWCOMERS REGISTRATION FORM
         </p>
         <a
           className="App-link"
