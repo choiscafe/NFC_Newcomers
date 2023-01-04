@@ -34,3 +34,8 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --ti-cursor-margin-left: 6em;
+  --ti-cursor-color: #1e72f1
+}
