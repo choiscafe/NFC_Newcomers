@@ -23,7 +23,7 @@ function App() {
       name: "name",
       type: "text",
       placeholder: "Name",
-      errorMessage: "Name must be entered",
+      errorMessage: "Valid name must be entered",
       label: "Name",
       pattern: "^[a-zA-Z_ ]*$",
       required: true
