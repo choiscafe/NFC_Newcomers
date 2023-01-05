@@ -110,29 +110,37 @@ function App() {
 
   return (
     <div className="App">
+      <img src="https://images.squarespace-cdn.com/content/v1/5b0efe015cfd793504d5d5ab/1534993905752-5LYTBKUJFBNKH06TCOYR/NFC_HORIZONTAL_LOCKUP_white_lg.png?format=1500w" className="App-logo" alt="logo" />
+
       <header className="App-header">
-        <img src="https://images.squarespace-cdn.com/content/v1/5b0efe015cfd793504d5d5ab/1534993905752-5LYTBKUJFBNKH06TCOYR/NFC_HORIZONTAL_LOCKUP_white_lg.png?format=1500w" className="App-logo" alt="logo" />
         <h1>
-          <TypeIt>NEWCOMERS REGISTRATION FORM</TypeIt>
+          NEWCOMERS REGISTRATION FORM
         </h1>
 
         <h3>
           <TypeIt
             getBeforeInit={(instance) => {
               instance
-                .type("Hello, New family members. Welcome.")
+                .type("Hello, New family members. Welcome!")
+                .move(-10, { delay: 300 })
+                .type(" ♡", { delay: 300 })
+                .move(null, { to: "END" })
                 .pause(750)
-                .delete(8, { delay: 1000 })
-                .type("Shalom!")
+                .delete(10, { delay: 750 })
+                .type(" Shalom!")
+                .break({ delay: 10 })
+                .type("<em> We welcome you in the name of the</em>")
+                .pause(700)
+                .type("<em> Lord!</em>")
                 .go();
 
               // Remember to return it!
               return instance;
             }}
           />
-        </h3><br></br>
+        </h3>
         <p>
-          We welcome you in the name of the Lord.<br></br> If you are new to New Frontier Church (NFC), please fill out and submit the form below.
+          If you are new to New Frontier Church (NFC),<br></br> please fill out and submit the form below.
         </p>
         <form onSubmit={handleSubmit}>
           {inputs.map((input) => (

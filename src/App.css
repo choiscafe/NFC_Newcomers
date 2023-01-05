@@ -1,19 +1,20 @@
 .App {
+  background: rgb(233, 18, 139);
+  background: linear-gradient(135deg, rgba(233, 18, 139, 1) 0%, rgba(178, 77, 204, 1) 50%, rgba(30, 114, 241, 1) 100%);
+  display: table;
+  width: 100%;
   text-align: center;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-position: center;
 }
 
 .App-logo {
-  height: 11vmin;
-  pointer-events: none;
+  margin: 40px 0 0 30px;
+  height: 17svmin;
+  padding: 20px 0;
+  box-sizing: border-box;
+  display: block;
 }
 
 .App-header {
-  background: rgb(233, 18, 139);
-  background: linear-gradient(135deg, rgba(233, 18, 139, 1) 0%, rgba(178, 77, 204, 1) 50%, rgba(30, 114, 241, 1) 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,9 +24,21 @@
   color: white;
 }
 
-.App-header h1,
-h3,
-p {
+.App-header h1 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  color: aliceblue
+}
+
+.App-header h3 {
+  padding-bottom: 30px;
+  line-height: 45px;
+  color: aliceblue
+}
+
+.App-header p {
+  padding-bottom: 20px;
+  line-height: 35px;
   color: aliceblue
 }
 
