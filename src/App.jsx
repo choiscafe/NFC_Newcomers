@@ -1,7 +1,7 @@
 import './App.css';
 import TypeIt from 'typeit-react';
 import FormInput from './components/FormInput';
-import { useState } from "react"
+// import { useState } from "react"
 
 function App() {
 

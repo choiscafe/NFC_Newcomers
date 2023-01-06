@@ -30,11 +30,11 @@ function FormInput() {
   };
 
   useEffect(() => {
-    console.log(formErrors);
+    // console.log(formErrors);
     if (Object.keys(formErrors).length === 0 && isSubmit) {
-      console.log(formValues);
+      // console.log(formValues);
     }
-  }, [formErrors]);
+  }, [isSubmit, formErrors]);
 
   const validate = (values) => {
     const errors = {};
@@ -83,7 +83,7 @@ function FormInput() {
     //   )
     // }
 
-    <div className="container">
+    <div className="formInput">
       {Object.keys(formErrors).length === 0 && isSubmit ? (
         <div className="ui message success">Thank you for submitting</div>
       ) : (
@@ -92,8 +92,8 @@ function FormInput() {
 
       <form onSubmit={handleSubmit}>
         {/* <h1>Login Form</h1> */}
-        <div className="ui divider"></div>
-        <div className="ui form">
+        <div className="ui-divider"></div>
+        <div className="ui-form">
 
           <div className="field">
             <label>Name</label>
@@ -105,7 +105,7 @@ function FormInput() {
               onChange={handleChange}
             />
           </div>
-          <p>{formErrors.name}</p>
+          <span className="error">{formErrors.name}</span>
 
           <div className="field">
             <label>Gender</label>
@@ -155,7 +155,7 @@ function FormInput() {
               onChange={handleChange}
             />
           </div>
-          <p>{formErrors.contactNumber}</p>
+          <span className='error'>{formErrors.contactNumber}</span>
 
           <div className="field">
             <label>Email</label>
@@ -167,7 +167,7 @@ function FormInput() {
               onChange={handleChange}
             />
           </div>
-          <p>{formErrors.email}</p>
+          <span className='error'>{formErrors.email}</span>
 
           <div className="field">
             <label>Kakao ID</label>

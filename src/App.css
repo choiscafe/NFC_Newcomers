@@ -19,9 +19,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: aliceblue;
 }
 
 .App-header h1 {
@@ -42,11 +42,22 @@
   color: aliceblue
 }
 
+.error {
+  padding-bottom: 20px;
+  line-height: 35px;
+  color: red
+}
+
 :root {
   --ti-cursor-margin-left: 6em;
   --ti-cursor-color: #1e72f1
 }
 
+.formInput>form {
+  background-color: white;
+  padding: 30px 60px;
+  border-radius: 10px;
+}
 
 button {
   width: 100%;
@@ -61,10 +72,4 @@ button {
   cursor: pointer;
   margin-top: 15px;
   margin-bottom: 30px;
-}
-
-form {
-  background-color: white;
-  padding: 30px 60px;
-  border-radius: 10px;
 }
