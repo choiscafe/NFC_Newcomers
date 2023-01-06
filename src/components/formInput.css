@@ -9,7 +9,7 @@ input {
   /* padding-left: 0; */
   text-align: center;
   padding: 15px 95px;
-  margin: 10px 0px;
+  margin: 5px 0px;
   border-radius: 5px;
   border: 1px solid gray;
 }
@@ -23,12 +23,20 @@ select {
   border: 1px solid gray;
 }
 
-
 .field label {
+  padding-top: 10px;
   display: block;
   text-align: left;
-  font-size: 12px;
+  font-size: 15px;
   color: gray;
+}
+
+.ui-message-success {
+  padding: 15px 0 30px 0;
+  display: block;
+  /* text-align: left; */
+  /* font-size: 15px; */
+  /* color: gray; */
 }
 
 input:invalid[focused="true"] {
@@ -38,3 +46,11 @@ input:invalid[focused="true"] {
 input:invalid[focused="true"]~span {
   display: block;
 }
+
+/* .error:invalid[formValues="true"] {
+  border: 1px solid red;
+}
+
+.error:invalid[formValues="true"]~span {
+  display: block;
+} */

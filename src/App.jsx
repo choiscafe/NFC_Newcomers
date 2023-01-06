@@ -1,7 +1,7 @@
 import './App.css';
 import TypeIt from 'typeit-react';
 import FormInput from './components/FormInput';
-// import { useState } from "react"
+import Links from './components/Links';
 
 function App() {
 
@@ -143,20 +143,7 @@ function App() {
           If you are new to New Frontier Church (NFC),<br></br> please fill out and submit the form below.
         </p>
         <FormInput />
-        {/* <form onSubmit={handleSubmit}>
-
-
-          {inputs.map((input) => (
-            <FormInput
-              key={input.id}
-              {...input}
-              value={values[input.name]}
-              onChange={onChange}
-            />
-          ))}
-
-          <button>Submit</button>
-        </form> */}
+        <Links />
       </header>
     </div>
   );

@@ -27,6 +27,7 @@ function FormInput() {
     e.preventDefault();
     setFormErrors(validate(formValues));
     setIsSubmit(true);
+    alert("Thank you for submitting")
   };
 
   useEffect(() => {
@@ -43,21 +44,21 @@ function FormInput() {
     const phoneRegex = /^[0-9]{10,14}$/i;
 
     if (!values.name) {
-      errors.name = "Name is required";
+      errors.name = "*This field is required";
     } else if (!nameRegex.test(values.name)) {
-      errors.name = "Valid name must be entered";
+      errors.name = "*A valid name must be entered";
     }
 
     if (!values.email) {
-      errors.email = "Email is required";
+      errors.email = "*This field is required";
     } else if (!emailRegex.test(values.email)) {
-      errors.email = "Valid email format must be entered";
+      errors.email = "*A valid email format must be entered";
     }
 
     if (!values.contactNumber) {
-      errors.contactNumber = "Contact number is required";
+      errors.contactNumber = "*This field is required";
     } else if (!phoneRegex.test(values.contactNumber)) {
-      errors.contactNumber = "Valid number must be entered";
+      errors.contactNumber = "*A valid number must be entered";
     }
     return errors;
   };
@@ -84,11 +85,6 @@ function FormInput() {
     // }
 
     <div className="formInput">
-      {Object.keys(formErrors).length === 0 && isSubmit ? (
-        <div className="ui message success">Thank you for submitting</div>
-      ) : (
-        null
-      )}
 
       <form onSubmit={handleSubmit}>
         {/* <h1>Login Form</h1> */}
@@ -103,6 +99,7 @@ function FormInput() {
               placeholder="Name"
               value={formValues.name}
               onChange={handleChange}
+              required="true"
             />
           </div>
           <span className="error">{formErrors.name}</span>
@@ -153,6 +150,7 @@ function FormInput() {
               placeholder="Contact Number"
               value={formValues.contactNumber}
               onChange={handleChange}
+              required="true"
             />
           </div>
           <span className='error'>{formErrors.contactNumber}</span>
@@ -165,6 +163,7 @@ function FormInput() {
               placeholder="Email"
               value={formValues.email}
               onChange={handleChange}
+              required="true"
             />
           </div>
           <span className='error'>{formErrors.email}</span>
@@ -214,6 +213,11 @@ function FormInput() {
           <button className="fluid ui button blue">Submit</button>
         </div>
       </form>
+      {Object.keys(formErrors).length === 0 && isSubmit ? (
+        <div className="ui-message-success">Thank you for submitting!</div>
+      ) : (
+        null
+      )}
     </div>
   );
 }
