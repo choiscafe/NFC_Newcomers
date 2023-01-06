@@ -67,7 +67,7 @@ function App() {
     {
       id: 6,
       name: "emailAddress",
-      type: "text",
+      type: "email",
       placeholder: "Email Address",
       errorMessage: " It should be a valid email address",
       label: "Email Address",
@@ -129,9 +129,9 @@ function App() {
                 .delete(10, { delay: 750 })
                 .type(" Shalom!")
                 .break({ delay: 10 })
-                .type("<em> We welcome you in the name of the</em>")
+                .type("<em> We welcome you in the name of the </em>")
                 .pause(700)
-                .type("<em> Lord!</em>")
+                .type("<em>Lord!</em>")
                 .go();
 
               // Remember to return it!
@@ -143,6 +143,8 @@ function App() {
           If you are new to New Frontier Church (NFC),<br></br> please fill out and submit the form below.
         </p>
         <form onSubmit={handleSubmit}>
+
+
           {inputs.map((input) => (
             <FormInput
               key={input.id}
@@ -151,6 +153,7 @@ function App() {
               onChange={onChange}
             />
           ))}
+
           <button>Submit</button>
         </form>
       </header>
