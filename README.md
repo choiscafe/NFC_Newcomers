@@ -28,15 +28,18 @@ You may also see any lint errors in the console.
 ## Sample View of the Page
 <img width="1438" alt="Screenshot 2023-01-07 at 3 14 35 PM" src="https://user-images.githubusercontent.com/107736255/211169142-84439d76-bdbb-4007-970f-9f4444bd9afb.png">
 
-TypeIt used welcoming phrase
+
+TypeIt is used welcoming phrase animation
 
 https://user-images.githubusercontent.com/107736255/211168727-1d305880-8774-41ee-a00b-78d3068a7587.mov
 
-Input form validations with error messages
-<img width="361" alt="Screenshot 2023-01-07 at 3 15 40 PM" src="https://user-images.githubusercontent.com/107736255/211169168-f040fb56-6390-4590-9d45-5f69136cc30d.png">
-<img width="350" alt="Screenshot 2023-01-07 at 3 24 09 PM" src="https://user-images.githubusercontent.com/107736255/211169194-13d61413-9493-4a9b-a063-299f99060927.png">
 
-Hyperlinked buttons that guide uses to the church's home page and other social media pages
+Input form validations with error messages
+
+<img width="361" alt="Screenshot 2023-01-07 at 3 15 40 PM" src="https://user-images.githubusercontent.com/107736255/211169168-f040fb56-6390-4590-9d45-5f69136cc30d.png"><img width="350" alt="Screenshot 2023-01-07 at 3 24 09 PM" src="https://user-images.githubusercontent.com/107736255/211169194-13d61413-9493-4a9b-a063-299f99060927.png">
+
+
+Hyperlinked buttons that guide the users to the church's home page and other social media pages
 
 https://user-images.githubusercontent.com/107736255/211168992-07f21094-cd4c-4ac1-aa49-a865c1ee0ffc.mov
 
