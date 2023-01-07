@@ -1,14 +1,12 @@
-# NEWCOMERS
+# NFC NEWCOMERS
 
-This project was created for front-end side of welcoming site for newcomers at my chuch, New Frontier Church in New York.
+NFC_Newcomers is the New Frontier Church Newcomers app, a front-end single page application that allows newcomers to easily input and submit their information to our church. My goal with this project was to create a more efficient and welcoming process for newcomers to engage with our church.
 
-## Why I came up with this project
+## Motivation for the project
 
-I served at NFC (New Frontier Church) in newcomers team since 2013. Being part of the team member for 7 years, and then serving as the newcomers team leader for a year, my team members and I found it cumbersome organizing newcomers' info details into Google spreadsheet. We often discussed on how to effectively gather information and organize them. After we gether information on Sunday, we would often forget or delay on updating the spreadsheet during the week. 
+I have been a member of the newcomers team at NFC since 2013, and have served as team leader for a year. During my time on the team, my fellow team members and I found it challenging to keep track of newcomers' information using a Google spreadsheet. It was often difficult to gather and organize the information, and we struggled to keep the spreadsheet up to date.
 
-This project is the page for newcomers to enter and provide their information in a friedly and welcoming manner! 
-
-Implementing this app, the newcomers team members can now focus more on getting to know and welcoming the newcomers, taking load off from the administrative tasks. 
+This project was created as a friendly and welcoming way for newcomers to provide their information. By implementing this app, the newcomers team can focus on building relationships with newcomers, rather than being bogged down by administrative tasks. The app aims to streamline the process of gathering and organizing newcomers' information, allowing the team to more effectively welcome and get to know newcomers.
 
 ## To get started on your local server
 ### `npm start`
@@ -19,57 +17,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Technologies used to build the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Structured with **HTML** and **React**, using vanilla **CSS** for styling.
+-Selected and implemented the color scheme, using tools such as **ColorSpace** and **CSS Gradient**.
+-Animated the welcoming phrases in the center of the page using the JavaScript library **TypeIt**.
+-Utilized the **Haikei** design tool to create organic-shaped buttons that lead to the church's other sites, optimizing for a fast loading time by using the lightweight SVG format.
+-Carried out input form validation to ensure that users received error messages when necessary. 
 
-### `npm run build`
+## Sample View of the Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://user-images.githubusercontent.com/107736255/211168651-5f0961bf-85fb-499d-9092-d3b8d871f00b.mov
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
