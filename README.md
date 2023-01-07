@@ -40,8 +40,10 @@ https://user-images.githubusercontent.com/107736255/211168727-1d305880-8774-41ee
 
 
 Input form validations with error messages
+<img width="1440" alt="Screenshot 2023-01-07 at 4 24 51 PM" src="https://user-images.githubusercontent.com/107736255/211170879-c221f228-cfc3-4fce-99cc-c181b4ce3a5a.png">
 
-<img width="361" alt="Screenshot 2023-01-07 at 3 15 40 PM" src="https://user-images.githubusercontent.com/107736255/211169168-f040fb56-6390-4590-9d45-5f69136cc30d.png"> ==> <img width="350" alt="Screenshot 2023-01-07 at 3 24 09 PM" src="https://user-images.githubusercontent.com/107736255/211169194-13d61413-9493-4a9b-a063-299f99060927.png">
+<img width="1440" alt="Screenshot 2023-01-07 at 4 24 32 PM" src="https://user-images.githubusercontent.com/107736255/211170881-9d16ef3e-3bc6-4861-8ae9-826902e288e6.png">
+
 
 
 Hyperlinked buttons that guide the users to the church's home page and other social media pages
