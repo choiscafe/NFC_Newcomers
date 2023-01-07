@@ -9,25 +9,25 @@ function Links() {
   return (
     <div className="buttonLinks">
 
-      <div className="homeButton">
+      <div>
         <a href="https://nfcnyc.org">
           <Logo1 className='buttonLogo' />NFC Home Page
         </a>
       </div>
 
-      <div className="bulletinButton">
+      <div>
         <a href="https://nfcnyc.org/ko/announcements">
           <Logo2 className='buttonLogo' />Weekly Bulletin
         </a>
       </div>
 
-      <div className="youtubeButton">
+      <div>
         <a href="https://www.youtube.com/@NewFrontierChurchNYC">
           <Logo3 className='buttonLogo' />YouTube
         </a>
       </div>
 
-      <div className="instaButton">
+      <div>
         <a href="https://www.instagram.com/nfc.nyc/">
           <Logo4 className='buttonLogo' />Instagram
         </a>
