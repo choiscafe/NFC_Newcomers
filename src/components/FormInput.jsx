@@ -27,13 +27,10 @@ function FormInput() {
     e.preventDefault();
     setFormErrors(validate(formValues));
     setIsSubmit(true);
-    alert("Thank you for submitting")
   };
 
   useEffect(() => {
-    // console.log(formErrors);
     if (Object.keys(formErrors).length === 0 && isSubmit) {
-      // console.log(formValues);
     }
   }, [isSubmit, formErrors]);
 
@@ -63,31 +60,11 @@ function FormInput() {
     return errors;
   };
 
-
-  // const [focused, setFocused] = useState(false)
-  // const { label, errorMessage, onChange, id, ...inputProps } = props;
-
-  // const handleFocus = (e) => {
-  //   setFocused(true)
-  // }
-
   return (
-    //     <div className="formInput">
-    //       <label>{label}</label>
-    //       <input
-    //         {...inputProps}
-    //         onChange={onChange}
-    //         onBlur={handleFocus}
-    //         focused={focused.toString()} />
-    //       <span className='error'>{errorMessage}</span>
-    //     </div>
-    //   )
-    // }
 
     <div className="formInput">
 
       <form onSubmit={handleSubmit}>
-        {/* <h1>Login Form</h1> */}
         <div className="ui-divider"></div>
         <div className="ui-form">
 

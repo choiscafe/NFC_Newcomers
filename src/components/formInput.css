@@ -34,23 +34,14 @@ select {
 .ui-message-success {
   padding: 15px 0 30px 0;
   display: block;
-  /* text-align: left; */
-  /* font-size: 15px; */
-  /* color: gray; */
 }
 
 input:invalid[focused="true"] {
   border: 1px solid red;
+  size: 10px
 }
 
 input:invalid[focused="true"]~span {
   display: block;
+  size: 10px
 }
-
-/* .error:invalid[formValues="true"] {
-  border: 1px solid red;
-}
-
-.error:invalid[formValues="true"]~span {
-  display: block;
-} */
