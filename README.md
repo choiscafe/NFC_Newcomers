@@ -20,10 +20,15 @@ You may also see any lint errors in the console.
 ## Technologies used to build the project
 
 -Structured with **HTML** and **React**, using vanilla **CSS** for styling.
+
 -Selected and implemented the color scheme, using tools such as **ColorSpace** and **CSS Gradient**.
+
 -Animated the welcoming phrases in the center of the page using the JavaScript library **TypeIt**.
+
 -Utilized the **Haikei** design tool to create organic-shaped buttons that lead to the church's other sites, optimizing for a fast loading time by using the lightweight SVG format.
+
 -Carried out input form validation to ensure that users received error messages when necessary. 
+
 
 ## Sample View of the Page
 <img width="1438" alt="Screenshot 2023-01-07 at 3 14 35 PM" src="https://user-images.githubusercontent.com/107736255/211169142-84439d76-bdbb-4007-970f-9f4444bd9afb.png">
@@ -36,7 +41,7 @@ https://user-images.githubusercontent.com/107736255/211168727-1d305880-8774-41ee
 
 Input form validations with error messages
 
-<img width="361" alt="Screenshot 2023-01-07 at 3 15 40 PM" src="https://user-images.githubusercontent.com/107736255/211169168-f040fb56-6390-4590-9d45-5f69136cc30d.png"><img width="350" alt="Screenshot 2023-01-07 at 3 24 09 PM" src="https://user-images.githubusercontent.com/107736255/211169194-13d61413-9493-4a9b-a063-299f99060927.png">
+<img width="361" alt="Screenshot 2023-01-07 at 3 15 40 PM" src="https://user-images.githubusercontent.com/107736255/211169168-f040fb56-6390-4590-9d45-5f69136cc30d.png"> ==> <img width="350" alt="Screenshot 2023-01-07 at 3 24 09 PM" src="https://user-images.githubusercontent.com/107736255/211169194-13d61413-9493-4a9b-a063-299f99060927.png">
 
 
 Hyperlinked buttons that guide the users to the church's home page and other social media pages
