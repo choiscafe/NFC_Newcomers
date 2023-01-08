@@ -2,6 +2,8 @@
 
 NFC_Newcomers is the New Frontier Church Newcomers app, a front-end single page application that allows newcomers to easily input and submit their information to our church. My goal with this project was to create a more efficient and welcoming process for newcomers to engage with our church.
 
+Visit: https://nfc-newcomers.onrender.com/
+
 ## Motivation for the project
 
 I have been a member of the newcomers team at NFC since 2013, and have served as team leader for a year. During my time on the team, my fellow team members and I found it challenging to keep track of newcomers' information using a Google spreadsheet. It was often difficult to gather and organize the information, and we struggled to keep the spreadsheet up to date.
@@ -29,6 +31,7 @@ You may also see any lint errors in the console.
 
 -Carried out input form validation to ensure that users received error messages when necessary. 
 
+-Deployed with Render (visit: https://nfc-newcomers.onrender.com/)
 
 ## Sample View of the Page
 <img width="1438" alt="Screenshot 2023-01-07 at 3 14 35 PM" src="https://user-images.githubusercontent.com/107736255/211169142-84439d76-bdbb-4007-970f-9f4444bd9afb.png">
