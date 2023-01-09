@@ -7,8 +7,9 @@
 }
 
 .App-logo {
+  position: relative;
   margin: 40px 0 0 30px;
-  height: 18svmin;
+  height: 20svmin;
   padding: 20px 0;
   box-sizing: border-box;
   display: block;
